@@ -1,0 +1,66 @@
+body {background-color: rgb(231, 229, 229);}
+
+div.navbar-icon{background-color: rgb(226, 224, 224);
+}
+
+div img.profilepic {width: 40px;}
+
+div.rightside {cursor: pointer;}
+
+div.bi-bell{width: 30px; height: 30px; text-align: center;}
+
+.bg-purple{background-color: rgb(129, 101, 253);}
+
+main.bg-purple{background-color: rgb(129, 101, 253);}
+
+button.bg-light-green {background-color: rgb(83, 223, 164);}
+
+img.jumbotronpic{object-fit: cover}
+
+div.section1icons {background-color: rgb(245, 214, 186); width: 30px; height: 30px; color: orange; border: 1px solid rgb(236, 209, 199)}
+
+div.avatars img{width: 30px;}
+
+section div.card-body span.linedprice {color: rgb(177, 177, 177);}
+
+#section2, footer {background-color: rgb(231, 229, 229);}
+
+#section2{padding-top: 80px; padding-bottom: 100px;}
+
+div.footerdiv {display: flex; gap: 20px;}
+
+div.footerdiv a {text-decoration: none;}
+
+div.mostpopularsec, div.trending {padding-top: 80px;}
+
+button:hover{opacity: 0.5;}
+
+
+div.bookmarkcontainers i {position: absolute; transition: opacity 0.5 ease;}
+i.bi-bookmark-fill{opacity: 0;}
+  
+i.bi-bookmark{transition: opacity 1s;}
+i.bi-bookmark-fill {transition: opacity 1s;}
+div.bookmarkcontainers:hover i.bi-bookmark{opacity: 0; }
+div.bookmarkcontainers:hover i.bi-bookmark-fill{opacity: 1; color: red;}
+
+.text-grey {color: grey;}
+
+@media (max-width: 667px) {
+  .w-sm-75 {width: 90%;}
+  div.card{width:180px; height: 430px; margin: auto; margin-bottom: 10px; }
+  div.avatars{font-size: smaller; padding: 0; margin-top: 0;}
+}
+
+div.card{transition: transform 1s ease-in-out;
+transition: box-shadow 1s ease-in-out;}
+
+div.card:hover{transform: scale(1.1);
+box-shadow: 2px 4px 8px rgb(173, 172, 172);}
+
+
+@media (min-width: 700px) and (max-width: 1180px){
+  div.jumbotronbuttons{display: flex; align-items: center; justify-content: center;}
+}
+
+
